@@ -1,7 +1,7 @@
 variable "location" {
   description = "Azure region where the resources will be created"
   type        = string
-  default     = "Australia East"
+  default     = "New Zealand North"
 }
 
 variable "resource_group_name" {
@@ -42,7 +42,7 @@ variable "aks_node_count" {
 variable "aks_node_vm_size" {
   description = "Virtual machine size for AKS nodes"
   type        = string
-  default     = "Standard_B2s"
+  default     = "Standard_D2s_v3"
 }
 
 variable "storage_account_name" {
